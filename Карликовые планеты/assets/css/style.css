@@ -1,0 +1,805 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+
+
+                     /* Container */
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1210px;
+    padding: 0 0;
+    margin: 0 auto;
+    
+    background-color: #F8F8FF;
+}
+
+.container2 {
+    height: 100hv;
+    width: 100%;
+    background: url("../images/%D1%84%D0%BE%D0%BD.jpg") center no-repeat;
+    -webkit-background-size: cover;
+}
+.container3 {
+    height: 100hv;
+    width: 1210px;
+    margin: 0 auto;
+    background: #F8F8FF center no-repeat;
+    -webkit-background-size: cover;
+}
+
+
+
+                         /* Intro */
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    
+    background: url("../images/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%8133.png") center no-repeat;
+    -webkit-background-size: cover;
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+    
+    color:#fff!important;
+    text-shadow: 1px 0 1px #333,
+    0 1px 1px #333,
+    -1px 0 1px #333, 
+    0 -1px 1px #333;
+}
+
+.intro__suptitle {
+    font-size: 42px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+                      /* Button */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    
+    border: 3px solid #fff;
+    
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    transition: background 0.2s linear;
+    
+}
+
+.btn:hover {
+    background-color: #B0C4DE;
+    color: #fce38a;
+}
+
+                       /* Header */
+
+.header {
+    width: 100%;
+    padding-top: 10px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #26252d;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.header__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 12px;
+    position: relative;
+    
+    color: #fff;
+    text-decoration: none;
+    
+    transition: color 0.2s linear;
+}
+.header__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    
+    transition: opacity 0.2s linear;
+}
+.header__link:hover {
+    color: #fff;
+}
+.header__link:hover:after {
+    opacity: 1;
+}
+
+
+                         /* Nav */
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 12px;
+    position: relative;
+    
+    color: #fff;
+    text-decoration: none;
+    
+    transition: color 0.2s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    
+    background-color: #fce38a;
+    opacity: 0;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    
+    transition: opacity 0.2s linear;
+}
+
+.nav__link:hover {
+    color: #fce38a;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+}
+
+                        /* Section1 */
+
+.section {
+    height: 100hv;
+    padding: 40px 40px;
+    color: #fff;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    
+}
+
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+.section__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto 0;
+    background: #B0C4DE;
+}
+.section__text11 {
+    font-size: 21px;
+    color: #333;
+    display: flex;
+}
+.bold {
+    font-weight: bold;
+}
+
+.section__text12 {
+    font-size: 21px;
+    color: #333;
+}
+.section__text13 {
+    font-size: 21px;
+    color: #333;
+}
+.section__text14 {
+    font-size: 21px;
+    color: #333;
+}
+.section__text15 {
+    font-size: 21px;
+    color: #333;
+}
+.section__text16 {
+    padding: 10px;
+    font-size: 21px;
+    color: #333;
+    padding-left: 0;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+
+                         /* Section2 */
+.section {
+    height: 100hv;
+    padding: 100px 0;
+}
+.section__header {
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+.section__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto 0;
+    background: #B0C4DE;
+}
+.section__text21 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text22 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text23 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.history {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+                            /* Section3 */
+.section {
+    height: 100hv;
+    padding: 100px 0;
+}
+.section__header {
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+.section__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto 0;
+    background: #B0C4DE;
+}
+.section__text31 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text32 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text33 {
+    text-decoration: none;
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+
+.section__text34 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text35 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text36 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text37 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.characteristic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.section__text38 {
+    padding: 10px;
+    font-size: 21px;
+    color: #333;
+    padding-left: 0;
+}
+.section__text39 {
+    padding-bottom: 30px;
+    margin: 0;
+    font-size: 21px;
+    color: #333;
+}
+
+
+
+
+
+
+                            /* Section4 */
+.section {
+    height: 100hv;
+    padding: 40px 40px;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    
+}
+
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+.section__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto 0;
+    background: #B0C4DE;
+}
+.section__text41 {
+    font-size: 21px;
+    color: #333;
+    display: flex;
+}
+
+.section__text42 {
+    font-size: 21px;
+    color: #333;
+}
+.section__text43 {
+    font-size: 21px;
+    color: #333;
+}
+
+
+
+.section__text44 {
+    font-size: 21px;
+    color: #333;
+}
+.section__text44__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 12px;
+    position: relative;
+    
+    color: #B0C4DE;
+}
+
+
+                          /* Section5 */
+.section {
+    height: 100hv;
+    padding: 100px 0;
+}
+.section__header {
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+.section__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto 0;
+    background: #B0C4DE;
+}
+.section__text51 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text52 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text53 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text54 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text55 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text56 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.section__text57 {
+    padding: 20px 0;
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+    
+}
+
+
+
+.infacts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1250px;
+
+    margin: 0 auto;
+}
+.infacts__item1 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+.infacts__item2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.infacts__item3 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.infacts__item4 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+                                        /* Церера */
+
+.ceres {
+    height: 100hv;
+    padding: 100px 0;
+}
+.ceres__header {
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+.ceres__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.ceres__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+.ceres__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto 0;
+    background: #B0C4DE;
+}
+.ceres__text1 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.ceres__text2 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.ceres__text3 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.ceres__text4 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.ceres__text5 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.ceres__text6 {
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+}
+.ceres__text7 {
+    padding: 20px 0;
+    margin: 6px;
+    font-size: 21px;
+    color: #333;
+    
+}
+
+
+.ceres {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1250px;
+
+    margin: 0 auto;
+}
+.ceres__item1 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.ceres__item2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.ceres1 {
+    padding: 30px 0;
+}
+
+
+.tablee {
+    padding: 30px;
+}
+
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 100%;
+    width: 600px;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+    border: 1px solid grey;
+    height: 50px;
+    
+    color: #333;
+}
+/* границы ячеек тела таблицы */
+td {
+    border: 1px solid grey;
+    height: 50px;
+    
+    color: #333;
+}
+
+
+.cerera {
+    padding: 30px;
+}
+
+
+/* Плутон */
+
+
+
+/* Хаумеа */
+
+
+
+/* Макемаке */
+
+
+
+/* Эрида */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1250px) {
+   
+    /* Intro */
+    .intro__suptitle {
+        font-size: 32px;
+    }
+    
+    .intro__title {
+        font-size: 96px;
+    }
+}
+
+
+
+
+
+
